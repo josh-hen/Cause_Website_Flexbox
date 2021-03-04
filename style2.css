@@ -1,0 +1,111 @@
+.body {
+    margin: 0px;
+  }
+
+.mainContainer {
+    height:200vmin;
+    width: 100%;
+    background: linear-gradient(to bottom, #0066ff 0%, #ff99cc 100%);
+    position: absolute;
+  }
+
+
+
+  .navBar{
+    display: flex;
+    justify-content: center;
+    background-color: #a64dff;
+    padding: 3vmin;
+  }
+
+  .navMenu{
+    display: flex;
+    width: 150vmin;
+    justify-content: space-between;
+    background-color: #00BFFF;
+    color:#00FFFF;
+    font-size: 1vmin;
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+    box-shadow: 10px 10px 16px black;
+  }
+
+
+
+  .subContainer {
+    width: 1000px;
+    height: 1200px;
+    background-color: #6495ED;
+    top: 100px;
+    left: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    box-shadow: 8px 8px 16px blue;
+    font-family: Didot, serif ;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10vmin;
+
+  }
+
+
+.content {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10vmin;
+  padding-right: 10vmin;
+  padding-bottom: 12vmin;
+
+}
+
+.content2 {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10vmin;
+  padding-right: 10vmin;
+  padding-bottom: 12vmin;
+
+}
+
+.content3 {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10vmin;
+  padding-right: 10vmin;
+  padding-bottom: 12vmin;
+
+}
+
+.photOne {
+  display: flex;
+  justify-content: flex-end;
+
+
+}
+
+.photoTwo {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.backPg{
+  display: flex;
+  align-content:  flex-end;
+  padding: 50vmin;
+  padding-left: 35vmin;
+  font-size: 3vmin;
+}
+
+
+.nxtPg{
+  display: flex;
+  align-content:  flex-end;
+  padding-top: 40vmin;
+  padding-left: 135vmin;
+  font-size: 3vmin;
+}
